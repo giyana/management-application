@@ -23,9 +23,7 @@ services:
             - sail
         depends_on:
             - mysql
-            - redis
             - meilisearch
-            - selenium
     phpmyadmin:
         image: phpmyadmin/phpmyadmin
         links:
